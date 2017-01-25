@@ -1,3 +1,4 @@
+package ro.kypy.kyp;
 /**
  * This class extends Comparable
  *
@@ -5,8 +6,7 @@
 public class QuickSort<T extends Comparable<T>> {
 	T array[];
 	int n;
-// de ce nu te lasa sa instantiezi clasa quicksort,,nu stiu. si ai reusit sa faci vreo sortarre?,,test te referi?
-	//nunu in main
+
 	public void sort(T[] a) {
 		n = a.length;
 		array = a;

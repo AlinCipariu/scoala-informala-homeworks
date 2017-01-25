@@ -1,7 +1,10 @@
+package ro.kypy.kyp;
+
 import org.junit.Assert;
 import org.junit.Test;
 
 public class QuickSortTest {
+
 	@Test
 	public void unsortedIntegerArrayIsSorted() {
 		// given
@@ -41,34 +44,25 @@ public class QuickSortTest {
 		Assert.assertArrayEquals(correctlySortedArray, sortedArray);
 
 	}
-	
-	
-	 @Test
-	    public void UnsortedArrayOfObjesctsIsSorted(){
-		 
-		 Object[] expectedEmps = new Object[3];
-	     
-		   
-		    
-		        expectedEmps[0] = new Employee(1, "Nats", 15000);
-		        expectedEmps[1] = new Employee(2, "Kalid", 25000);
-		        expectedEmps[2] = new Employee(3, "Krish", 5000);
-		    
-		    
-	        /**
-	         * convert List of objects to array of objects
-	         */
-	        Object[] testOutput = Employee.getEmpList().toArray();
-	        
-			AssertArrayEquals(expectedEmps, testOutput);
-	    }
+
+	@Test
+	public void UnsortedArrayOfObjesctsIsSorted() {
+
+		Object[] expectedEmps = new Object[3];
+
+		expectedEmps[0] = new Employee(1, "Nats", 15000);
+		expectedEmps[1] = new Employee(2, "Kalid", 25000);
+		expectedEmps[2] = new Employee(3, "Krish", 5000);
+
+		/**
+		 * convert List of objects to array of objects
+		 */
+		Object[] testOutput = Employee.getEmpList().toArray();
+
+		AssertArrayEquals(expectedEmps, testOutput);
+	}
 
 	private void AssertArrayEquals(Object[] expectedEmps2, Object[] testOutput) {
-		
+
 	}
 }
-
-
-
-
-
