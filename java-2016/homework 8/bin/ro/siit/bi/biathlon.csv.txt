@@ -1,5 +1,0 @@
-12,Claudiu Popescu,RO,31:13:00,xxxxo,oxoxx,xxoxx
-2,Joe Bryan,UK,28:08:00,xoxxx,xxxox,xooxx
-28,Adam Zyla,PL,32:45:00,ooxxx,xoxox,xxxxx
-8, Florin Rosca,MO,38:48:00,xoooo,ooxxx,xooox
-3, Jack Robinson,USA,30:09:00,xxxxo,ooooo,xxxxx
